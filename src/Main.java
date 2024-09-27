@@ -37,9 +37,9 @@ class Student extends Person{
         if(calculateFinalGpa() >= 3.7){
             System.out.println("First Class");
         }else if(calculateFinalGpa() >= 3.3){
-            System.out.println("Second Class");
+            System.out.println("Second Class (UPPER)");
         }else if(calculateFinalGpa() >= 3.0){
-            System.out.println("Third Class");
+            System.out.println("Second Class (LOWER)");
         }else {
             System.out.println("Pass.");
         }
